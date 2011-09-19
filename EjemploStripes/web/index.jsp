@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Sep 18, 2011, 11:18:11 PM
-    Author     : JAguilar
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
