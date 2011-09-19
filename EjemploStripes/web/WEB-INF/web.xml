@@ -32,4 +32,7 @@
             30
         </session-timeout>
     </session-config>
+    <welcome-file-list>
+        <welcome-file>Inicio.action</welcome-file>
+    </welcome-file-list>
 </web-app>

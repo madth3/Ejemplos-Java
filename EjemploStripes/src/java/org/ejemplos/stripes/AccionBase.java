@@ -1,4 +1,4 @@
-package org.ejemplos.control;
+package org.ejemplos.stripes;
 
 import net.sourceforge.stripes.action.ActionBean;
 import net.sourceforge.stripes.action.ActionBeanContext;
@@ -7,7 +7,7 @@ import net.sourceforge.stripes.action.ActionBeanContext;
  * Clase que sera la base de las demas acciones
  * @author JAguilar
  */
-public class AccionBase implements ActionBean {
+public abstract class AccionBase implements ActionBean {
 
     protected ActionBeanContext contexto;
     

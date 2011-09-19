@@ -1,5 +1,6 @@
-package org.ejemplos.control;
+package org.ejemplos.stripes;
 
+import net.sourceforge.stripes.action.DefaultHandler;
 import net.sourceforge.stripes.action.ForwardResolution;
 import net.sourceforge.stripes.action.Resolution;
 
@@ -7,8 +8,9 @@ import net.sourceforge.stripes.action.Resolution;
  *
  * @author JAguilar
  */
-public class AccionInicio extends AccionBase {
+public class InicioAction extends AccionBase {
     
+    @DefaultHandler
     public Resolution mostrarInicio() {
         return new ForwardResolution("/index.jsp");
     }
