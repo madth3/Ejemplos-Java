@@ -14,6 +14,9 @@ public class Actividad {
     private Double avance;
     private Integer idCategoria;
 
+    public Actividad() {
+    }
+
     public Actividad(Integer id, String descripcion, Date plazoEntrega, Integer idCategoria) {
         this.id = id;
         this.descripcion = descripcion;
