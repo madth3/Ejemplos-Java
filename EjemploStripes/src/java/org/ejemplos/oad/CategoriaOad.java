@@ -24,7 +24,7 @@ public class CategoriaOad {
         categorias.put(3, new Categoria(3,"Tesis"));
     }
     
-    public static List<Categoria> getCategorias() {
+    public List<Categoria> getCategorias() {
         return new ArrayList<Categoria>(categorias.values());
     }
 }

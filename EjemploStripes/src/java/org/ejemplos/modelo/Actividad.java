@@ -51,6 +51,20 @@ public class Actividad {
     }
 
     /**
+     * @return the idCategoria
+     */
+    public Long getIdCategoria() {
+        return idCategoria.longValue();
+    }
+
+    /**
+     * @param idCategoria the idCategoria to set
+     */
+    public void setIdCategoria(Integer idCategoria) {
+        this.idCategoria = idCategoria;
+    }
+
+    /**
      * @return the plazoEntrega
      */
     public Date getPlazoEntrega() {

@@ -23,7 +23,7 @@ public class ActividadOad {
         actividades.put(2, new Actividad(2, "Resolver ejercicios de Estadística", new Date(111, 9, 1), 1));
     }
     
-    public static List<Actividad> getActividades() {
+    public List<Actividad> getActividades() {
         return new ArrayList<Actividad>(actividades.values());
     }
 }
