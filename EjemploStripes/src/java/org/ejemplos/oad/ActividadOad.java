@@ -19,8 +19,8 @@ public class ActividadOad {
     
     static {
         actividades = new HashMap<Integer,Actividad>();
-        actividades.put(1, new Actividad(1, "Reescribir capítulo 3", new Date(2011, 8, 30), 3));
-        actividades.put(2, new Actividad(2, "Resolver ejercicios de Estadística", new Date(2011, 9, 1), 1));
+        actividades.put(1, new Actividad(1, "Reescribir capítulo 3", new Date(111, 8, 30), 3));
+        actividades.put(2, new Actividad(2, "Resolver ejercicios de Estadística", new Date(111, 9, 1), 1));
     }
     
     public static List<Actividad> getActividades() {

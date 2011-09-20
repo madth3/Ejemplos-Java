@@ -19,6 +19,7 @@ public class Actividad {
         this.descripcion = descripcion;
         this.plazoEntrega = plazoEntrega;
         this.idCategoria = idCategoria;
+        this.avance = 0.0;
     }
 
     /**
